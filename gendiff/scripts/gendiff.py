@@ -11,5 +11,10 @@ parser.add_argument(
 
 )
 
+parser.add_argument(
+    '-f',
+    '--format',
+)
+
 args = parser.parse_args()
 print(args.accumulate(args.integers))
